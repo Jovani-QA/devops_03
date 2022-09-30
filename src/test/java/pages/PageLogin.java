@@ -6,11 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class pageLogin {
+public class PageLogin {
     private final WebDriver driver;
 
     //Construtor
-    public pageLogin(WebDriver driver){
+    public PageLogin(WebDriver driver){
         PageFactory.initElements(driver,this);
         this.driver = driver;
     }

@@ -4,9 +4,9 @@ import config.config;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import pages.pageLogin;
+import pages.PageLogin;
 
-public class testLogin {
+public class TestLogin {
     private WebDriver driver;
 
     @Before
@@ -21,7 +21,7 @@ public class testLogin {
         String email = "db106@cstng.com";
         String senha = "cst0962";
 
-        pageLogin pagelogin = new pageLogin(driver);
+        PageLogin pagelogin = new PageLogin(driver);
 
         pagelogin.preencherEmail(email);
         pagelogin.preencherSenha(senha);

@@ -5,10 +5,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import pages.pageLogin;
+import pages.PageLogin;
 
 
-public class testSenhaInvalida {
+public class TestSenhaInvalida {
 
     private WebDriver driver;
 
@@ -23,7 +23,7 @@ public class testSenhaInvalida {
         String email = "db106@cstng.com";
         String senha = "aaaaa";
 
-        pageLogin pagelogin = new pageLogin(driver);
+        PageLogin pagelogin = new PageLogin(driver);
 
 
         pagelogin.preencherEmail(email);
