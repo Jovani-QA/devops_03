@@ -11,7 +11,7 @@ public class config {
         WebDriver driver = new ChromeDriver();
         driver.get("http://169.62.128.221/Casting/CASTING_ADM_HOMO");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
         return driver;
     }
 }
